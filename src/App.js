@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Header from './Header.js';
+import RegistrationForms from './RegistrationForms.js';
 
 const menu = [
   {
@@ -21,7 +21,7 @@ const menu = [
 class App extends Component {
   render(){
     return(
-      <Header items={menu}/>
+      <RegistrationForms items={menu}/>
     )
   }
 }
